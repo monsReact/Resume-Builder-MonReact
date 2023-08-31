@@ -1,0 +1,36 @@
+.MissionAndFuture{
+    margin-top: 3rem;
+}
+.MissionAndFutureSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    background-image: url("https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/372165214_622578979996861_6221465436537748411_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=z-wqEaKdf78AX-bYRzA&_nc_ht=scontent.fcai19-6.fna&oh=03_AdQSs7aw1K5a0wEIJ0ieOI9BHdngjIwWWV6qOWM04kb_rg&oe=65146F1D");
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+.MissionAndFutureSection img{
+    width:100%;
+    height: 18rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+}
+.MissionAndFutureSection p{
+    font-family:Sofia,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-weight: 500;
+    width: 90%;
+    color: white;
+    margin-bottom: -1rem;
+
+}

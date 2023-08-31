@@ -1,0 +1,9 @@
+.AboutSection1{
+    margin-top: 5.7rem;
+}
+.AboutSection1 img{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius:10px ;
+    width: 99%;
+}

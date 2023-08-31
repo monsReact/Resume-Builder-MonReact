@@ -1,0 +1,73 @@
+.HomeDetail{
+    
+    background-image:url("https://th.bing.com/th/id/R.f218e4064c3cca1c562e56b10d7ad406?rik=mXu%2fRW5Q5D2N4Q&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fBlue-simple-wallpaper-nackgrounds-download.jpg&ehk=cmjUMBBlPx2x0nW9TpdoxK88a%2bdHPljL7d7Gaxuur5A%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat:no-repeat;
+    border-radius: 20px;
+}
+.HomeLogo{
+    margin-top: 10rem;
+    margin-bottom: -110px;
+    font-family: Aclonica,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+}
+.HomeHeader{
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    padding: 50px ;
+    font-family: Croissant One, Times, serif;
+    font-size: 45px;
+    font-weight: 100;
+
+}
+.HomeSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -80px;
+    margin-bottom: 90px;
+}
+.HomeParag{
+    color: white;
+    width: 40%;
+    font-family: Courgette, Helvetica, sans-serif;
+    text-align: center;
+    font-size:20px ;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    line-height: 2.5rem;
+}
+.HomeImage{
+    width:45%;
+    height: 500px;
+}
+.ResumeButton{
+    text-align: center;
+    border: 1px solid #ffa500;
+    padding: 25px 40px;
+    background-color: #f7b50c;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    left: 35%;
+    bottom: 6rem;
+    font-family:Berkshire Swash, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+
+}
+.ResumeButton:hover{
+    color: navy;
+}
+@media only screen and (max-width:600px)
+{
+  .HomeLogo{
+    font-size: 3rem;
+  }
+  .ResumeButton{
+    font-size: 1.3rem;
+  }
+}

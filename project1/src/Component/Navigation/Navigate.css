@@ -1,0 +1,62 @@
+.NavContent{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image:url('https://th.bing.com/th/id/R.f218e4064c3cca1c562e56b10d7ad406?rik=mXu%2fRW5Q5D2N4Q&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fBlue-simple-wallpaper-nackgrounds-download.jpg&ehk=cmjUMBBlPx2x0nW9TpdoxK88a%2bdHPljL7d7Gaxuur5A%3d&risl=&pid=ImgRaw&r=0') ;
+    background-size: cover;
+    border-radius: 20px;
+    position: fixed;
+    width: 95%;
+    height: 8%;
+    top:0;
+    z-index: 2;
+}
+
+.NavContent img{
+    border: 1px solid black ;
+    border-radius: 30px;
+}
+.NavLinks{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+.NavLink{
+    font-family:Bad Script, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    margin-right: 3rem;
+    padding: 0px 10px;
+    padding-bottom: 40px;
+    width: 100px;
+  
+}
+.NavLink:link, .NavLink:visited{
+    color:navy;
+
+}
+.NavLink:hover{
+    color:orange;
+}
+.clicked{
+    color:white !important;
+    background-color: navy!important;
+}
+@media only screen and (max-width: 600px)
+{
+  .NavContent{
+    display: none !important;
+    visibility: hidden;
+    
+  }
+}

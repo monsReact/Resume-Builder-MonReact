@@ -1,0 +1,18 @@
+.HeadCover{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin-top: 90px;
+    padding: 50px ;
+    font-family: Croissant One, Times, serif;
+    font-size: 45px;
+    font-weight: 100;   
+}
+.bodyCover{
+    color: rgb(47, 0, 255);
+    text-align: center;
+    margin-top: -100px;
+    padding: 50px ;
+    font-family: Croissant One, Times, serif;
+    font-size: 45px;
+    font-weight: 100;   
+}

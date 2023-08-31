@@ -1,0 +1,52 @@
+.MobNavContent{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://scontent.fcai19-6.fna.fbcdn.net/v/t1.15752-9/371375531_609438221372465_1240514591318611165_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=-lROUIW3zC4AX83R3lf&_nc_ht=scontent.fcai19-6.fna&oh=03_AdTiudYd-r9H8fVapLABnE-e1awIE-0whmwn_li_M8y6SA&oe=6515B5F4');
+}
+.MobNavContent img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+}
+.MobNavLinks{
+    display: flex;
+    flex-direction: column;
+}
+.MobNav{
+    display: none;
+    position:fixed;
+    top:0;
+}
+
+.MobNavLink{
+    font-family:Bad Script, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    color: navy;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 50px;
+}
+.MobNavLink:link, .MobNavLink:visited{
+    color:navy;
+
+}
+.MobNavLink:hover{
+    color:orange;
+}
+.Mobclicked{
+    background-color: navy !important;
+    color: white !important;
+}
+@media only screen and (max-width:600px)
+{
+  .MobNav{
+    display: flex;
+  }
+
+}
